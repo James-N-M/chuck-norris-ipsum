@@ -1,6 +1,5 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/james-n-m/chuck-norris-ipsum.svg?style=flat-square)](https://packagist.org/packages/james-n-m/chuck-norris-ipsum)
 [![Build Status](https://img.shields.io/travis/james-n-m/chuck-norris-ipsum/master.svg?style=flat-square)](https://travis-ci.org/james-n-m/chuck-norris-ipsum)
-[![Quality Score](https://img.shields.io/scrutinizer/g/james-n-m/chuck-norris-ipsum.svg?style=flat-square)](https://scrutinizer-ci.com/g/james-n-m/chuck-norris-ipsum)
 [![Total Downloads](https://img.shields.io/packagist/dt/james-n-m/chuck-norris-ipsum.svg?style=flat-square)](https://packagist.org/packages/james-n-m/chuck-norris-ipsum)
 
 <p align="center">
