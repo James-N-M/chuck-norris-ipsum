@@ -17,7 +17,7 @@ class ChuckNorrisJokeIpsum
 
     public function joke(): string
     {
-        $response = $this->client->get(self::API_ENDPOINT . '/random');
+        $response = $this->client->get(self::API_ENDPOINT.'/random');
 
         $joke = json_decode($response->getBody()->getContents());
 
@@ -26,10 +26,10 @@ class ChuckNorrisJokeIpsum
 
     public function jokes(int $count = 2): string
     {
-        $response = $this->client->get(self::API_ENDPOINT . '/random' . '/' . $count);
+        $response = $this->client->get(self::API_ENDPOINT.'/random'.'/'.$count);
 
         $jokes = json_decode($response->getBody()->getContents());
 
-        return implode(" ", array_column($jokes->value, 'joke'));
+        return implode(' ', array_column($jokes->value, 'joke'));
     }
 }

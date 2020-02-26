@@ -2,8 +2,8 @@
 
 namespace JamesNM\ChuckNorrisIpsum\Tests;
 
-use PHPUnit\Framework\TestCase;
 use JamesNM\ChuckNorrisIpsum\ChuckNorrisFactIpsum;
+use PHPUnit\Framework\TestCase;
 
 class ChuckNorrisFactIpsumTest extends TestCase
 {
