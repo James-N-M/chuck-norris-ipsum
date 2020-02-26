@@ -1,3 +1,6 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/james-n-m/chuck-norris-ipsum.svg?style=flat-square)](https://packagist.org/packages/james-n-m/chuck-norris-ipsum)
+[![Build Status](https://img.shields.io/travis/james-n-m/chuck-norris-ipsum/master.svg?style=flat-square)](https://travis-ci.org/james-n-m/chuck-norris-ipsum)
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/6562688/75273524-057ac480-57cf-11ea-9f9b-81c765d69d91.png" />
     <br /><br />
