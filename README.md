@@ -31,7 +31,7 @@ The following would produce a couple jokes, a fact, then shuffle all the words f
 ``` php
 <div class="content">
     <div>
-        {{ chuck_norris()->jokes()->fact()->shuffle()ipsum() }}
+        {{ chuck_norris()->jokes()->fact()->shuffle()->ipsum() }}
     </div>
 </div>
 ```
