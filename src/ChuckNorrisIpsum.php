@@ -16,35 +16,35 @@ class ChuckNorrisIpsum
         $this->jokesIpsum = new ChuckNorrisJokeIpsum();
     }
 
-    public function joke()
+    public function joke(): self
     {
         $this->ipsum .= $this->jokesIpsum->joke();
 
         return $this;
     }
 
-    public function jokes(int $count = 2)
+    public function jokes(int $count = 2): self
     {
         $this->ipsum .= $this->jokesIpsum->jokes($count);
 
         return $this;
     }
 
-    public function fact()
+    public function fact(): self
     {
         $this->ipsum .= $this->factsIpsum->fact();
 
         return $this;
     }
 
-    public function facts(int $count = 2)
+    public function facts(int $count = 2): self
     {
         $this->ipsum .= $this->factsIpsum->facts($count);
 
         return $this;
     }
 
-    public function shuffle()
+    public function shuffle():self
     {
         if (! $this->ipsum) {
             new Exception('Must call ipsum builder functions, fact, facts, joke, jokes');
@@ -55,7 +55,7 @@ class ChuckNorrisIpsum
         return $this;
     }
 
-    public function ipsum()
+    public function ipsum(): string
     {
         return $this->ipsum;
     }
