@@ -44,7 +44,7 @@ class ChuckNorrisIpsum
         return $this;
     }
 
-    public function shuffle():self
+    public function shuffle(): self
     {
         if (! $this->ipsum) {
             new Exception('Must call ipsum builder functions, fact, facts, joke, jokes');
